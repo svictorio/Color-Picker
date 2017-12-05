@@ -1,10 +1,4 @@
-button{
-	color:blue;
-	font-size: 50px;
-	background-color: red;
-	border:none;
-}
-
+/*
 input{
 	font-size: 50px;
 }
@@ -13,3 +7,51 @@ input{
 	font-size: 50px;
 	font-family: 'arial';
 }
+
+ul li{
+	font-size: 30px;
+	color:red;
+}
+
+.imCustomClass{
+	text-decoration: underline;
+	color:yellow;
+}
+
+#audio{
+	display: none;
+}
+   */
+
+     h1{
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 100px;
+    }
+
+
+
+
+body{
+/*  background: #3a9fe5;*/
+  /*color: #fff;*/
+   background-size: 75px 55px;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: green;} /* Blue */
+.button3 {background-color: blue;} /* Red */ 
+.button4 {background-color: white; color: black;} /* Gray */ 
+.button5 {background-color: orange;} /* Black */
